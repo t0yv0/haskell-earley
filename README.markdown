@@ -9,6 +9,7 @@ grammar analysis.
 
 Warning: This code is alpha quality, as I have not yet convinced
 myself that the implementation is correct, especially with handling
-epsilon rules. Nor did I do any complexity
+epsilon rules. Nor did I do any complexity analysis yet, so it may be
+performing worse advertised (Earley is supposed to be cubic).
 
 [1]: http://webhome.cs.uvic.ca/~nigelh/Publications/PracticalEarleyParsing.pdf
