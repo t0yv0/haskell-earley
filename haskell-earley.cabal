@@ -1,0 +1,18 @@
+Name:                haskell-earley
+Version:             0.1
+Synopsis:            Earley parsing with combinator-style grammar definitions.
+Homepage:            http://github.com/toyvo/haskell-earley
+License:             BSD3
+License-file:        LICENSE
+Author:              Anton Tayanovskyy
+Maintainer:          anton.tayanovskyy@gmail.com
+Category:            Text
+Build-type:          Simple
+Extra-source-files:  README.markdown
+Cabal-version:       >=1.2
+Library
+  Exposed-modules:   Text.Earley
+  Build-depends:     containers==0.4.0.0,
+                     base==4.3.1.0,
+                     mtl==2.0.1.0
+  Other-modules:     Example
